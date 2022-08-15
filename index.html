@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=}, initial-scale=1.0" />
+    <!--link de mi css-->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>eFac</title>
+  </head>
+  <body>
+    <div>
+      <button id="btnFac">Facturas</button>
+      <button id="btnCli">Clientes</button>
+    </div>
+    <div id="nuevaFactura" style="display: none">
+      <p>Cargar factura</p>
+      <form id="cargaFactura" action="">
+        <input
+          type="text"
+          id="clientes"
+          placeholder="nombre y apellido/razon social"
+        />
+        <input type="text" id="productos" placeholder="producto" />
+        <input type="text" id="valor" placeholder="importe" />
+        <button id="btn">Generar factura</button>
+      </form>
+    </div>
+    <div id="facturaGenerada" style="display: none">
+      <p>Factura generada</p>
+      <form id="verFactura" action="">
+        <input
+          type="text"
+          id="clientesFac"
+          placeholder="nombre y apellido/razon social"
+          disabled
+        />
+        <input type="text" id="productosFac" placeholder="producto" disabled />
+        <input type="text" id="valorFac" placeholder="importe" disabled />
+        <button id="btnBack"> Volver</button>
+      </form>
+    </div>
+    <div id="nuevoCliente" style="display: none">
+      <p>Cargar cliente</p>
+      <form id="cargaClientes" action="">
+        <input
+          type="text"
+          id="clienteNuevo"
+          placeholder="nombre y apellido/razon social"
+        />
+        <input type="text" id="direccion" placeholder="direccion" />
+        <input type="text" id="cuit" placeholder="cuit" />
+        <button id="btnClientes">Generar nuevo cliente</button>
+      </form>
+    </div>
+    <div id="contenedor"></div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

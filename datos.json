@@ -1,0 +1,8 @@
+[
+    {"cliente": "Florencia", "producto": "Televisor", "precio": 100000},
+    {"cliente": "Gustavo", "producto": "Celular", "precio": 10000},
+    {"cliente": "Azul", "producto": "Cama", "precio": 150000},
+    {"cliente": "Diego", "producto": "Batidora", "precio": 35000},
+    {"cliente": "Jazmin", "producto": "Televisor", "precio": 80000},
+    {"cliente": "Rodrigo", "producto": "Minipimer", "precio": 27000}
+]

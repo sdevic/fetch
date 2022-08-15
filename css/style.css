@@ -1,0 +1,21 @@
+.btnFac{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1rem;
+    list-style: none;
+     
+    border-color: red;
+    padding-left: 0,2rem;
+}
+.btnCliente{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1rem;
+    list-style: none;
+     
+    border-color: red;
+    padding-left: 0,2rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
